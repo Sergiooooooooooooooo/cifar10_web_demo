@@ -60,15 +60,14 @@ Desktop.ini
 .colab/
 
 # ---------- TensorFlow / Keras / Machine Learning ----------
-# Modelos entrenados y exportaciones: distribuir por separado si se necesitan.
-*.keras
+# NOTA: el modelo .keras SI se sube en este proyecto (backend/cifar10_dense_model.keras
+# es requerido por el ejercicio), por eso *.keras no esta en este archivo.
 *.h5
 *.hdf5
 *.pb
 saved_model/
 checkpoint/
 checkpoints/
-logs/
 tensorboard/
 events.out.tfevents.*
 *.tflite
